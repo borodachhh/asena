@@ -1,0 +1,3 @@
+[submodule "Asena\\vendor\\spdlog"]
+	path = Asena\\vendor\\spdlog
+	url = https://github.com/gabime/spdlog

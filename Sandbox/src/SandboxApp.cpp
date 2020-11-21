@@ -1,11 +1,11 @@
-#include "Rosaw.h"
+#include "Asena.h"
 
-class Sandbox : public Rosaw::Application
+class Sandbox : public Asena::Application
 {
 public:
   Sandbox()
   {
-
+   
   }
 
   ~Sandbox()
@@ -15,7 +15,7 @@ public:
 
 };
 
-Rosaw::Application* Rosaw::CreateApplication()
+Asena::Application* Asena::CreateApplication()
 {
   return new Sandbox();
 }

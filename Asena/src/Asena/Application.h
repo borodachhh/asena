@@ -2,9 +2,9 @@
 
 #include "Core.h"
 
-namespace Rosaw {
+namespace Asena {
 
-  class ROSAW_API Application
+  class ASENA_API Application
   {
   public:
     Application();

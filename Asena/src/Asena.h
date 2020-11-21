@@ -1,10 +1,11 @@
 #pragma once
 
-// For use by Rosaw applications
+// For use by Asena applications
 
 #include <stdio.h>
-#include "Rosaw/Application.h"
+#include "Asena/Application.h"
+#include "Asena/Log.h"
 
 // ---Entry Point---------------------------
-#include "Rosaw/EntryPoint.h"
+#include "Asena/EntryPoint.h"
 // -----------------------------------------
