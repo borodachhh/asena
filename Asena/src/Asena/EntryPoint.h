@@ -4,7 +4,7 @@
 
 extern Asena::Application* Asena::CreateApplication();
 
-int main(int argc, char** argv)
+int main( int argc, char** argv )
 {
   Asena::Log::Init();
   AE_CORE_INFO( "Log is initialized." );

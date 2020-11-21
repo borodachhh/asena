@@ -5,7 +5,6 @@
 #include <spdlog/sinks/stdout_color_sinks.h>
 
 namespace Asena {
-
   class ASENA_API Log
   {
   public:
@@ -16,7 +15,6 @@ namespace Asena {
     static std::shared_ptr<spdlog::logger> s_CoreLogger;
     static std::shared_ptr<spdlog::logger> s_ClientLogger;
   };
-
 }
 
 // Core log macros

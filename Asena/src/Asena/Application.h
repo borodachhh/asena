@@ -3,7 +3,6 @@
 #include "Core.h"
 
 namespace Asena {
-
   class ASENA_API Application
   {
   public:
@@ -14,6 +13,4 @@ namespace Asena {
 
   //to be defined in CLIENT
   Application* CreateApplication();
-
-
 }
